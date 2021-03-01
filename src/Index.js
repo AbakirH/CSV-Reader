@@ -23,6 +23,6 @@ fs.createReadStream(csvFile)
     // When we are done, test that the parsed output matched what expected
     .on('end', function(){
 
-      //  console.log(output);
+      console.log(output);
 
     }));
